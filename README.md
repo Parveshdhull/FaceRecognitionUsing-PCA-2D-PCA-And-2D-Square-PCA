@@ -14,5 +14,7 @@ for video = 1
 for group image = 2
 2. The project uses ORL dataset, You can put your dataset in the images folder and change the name of the dataset in the dataset.py file
 3. Enjoy Project
-
+# YouTube Tutorials
+https://www.youtube.com/playlist?list=PLgWKOWHJlDUM_cog-ujJgYoRCJ6LcAhtU
+https://www.youtube.com/c/Right2Trick
 
