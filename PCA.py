@@ -30,7 +30,7 @@ class pca_class:
 
     def __init__(self, images, y, target_names, no_of_elements, quality_percent):
         self.no_of_elements = no_of_elements
-        self.images = np.asarray(images.T)
+        self.images = np.asarray(images)
         self.y = y
         self.target_names = target_names
         mean = np.mean(self.images, 1)
@@ -83,7 +83,7 @@ class pca_class:
         threshold = 100000
         if distances[min] < threshold:
             print("Person", k, ":", min, self.target_names[min])
-            return self.target_names[min], min
+            return self.target_names[min]
         else:
             print("Person", k, ":", min, 'Unknown')
             return 'Unknown'
