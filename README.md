@@ -3,6 +3,10 @@ Implementation of PCA/2D-PCA/2D(Square)-PCA in Python for recognizing Faces:
 1. Single Person Image
 2. Group Image
 3. Recognize Face In Video
+# Accuracy on ORL dataset
+  - PCA(93.42%)
+  - 2D-PCA(96.05%)
+  - 2D(Square)-PCA(97.36%)
 # Requirements
 1. numpy
 2. opencv
