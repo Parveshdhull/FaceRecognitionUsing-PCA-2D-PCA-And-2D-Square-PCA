@@ -18,7 +18,7 @@ Implementation of PCA/2D-PCA/2D(Square)-PCA in Python for recognizing Faces:
   - for video = 1
   - for group image = 2
 3. The project uses ORL dataset, You can put your dataset in the images folder and change the name of the dataset in the dataset.py file
-    (You can also create new dataset by extracting faces using FaceExtractor provided)
+(You can also create new dataset by extracting faces using FaceExtractor provided)
 4. Run Face_Recognition and Enjoy Project
 # YouTube Tutorials
 https://www.youtube.com/channel/UCgPow08o-Uei1FPJhhRJdiw/playlists?sort=dd&view=50&shelf_id=14
