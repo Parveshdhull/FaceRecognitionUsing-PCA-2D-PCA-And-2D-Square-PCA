@@ -24,3 +24,5 @@ Implementation of PCA/2D-PCA/2D(Square)-PCA in Python for recognizing Faces:
 https://www.youtube.com/channel/UCgPow08o-Uei1FPJhhRJdiw/playlists?sort=dd&view=50&shelf_id=14
 
 https://www.youtube.com/c/Right2Trick
+
+Twitter: https://twitter.com/ParveshMonu
