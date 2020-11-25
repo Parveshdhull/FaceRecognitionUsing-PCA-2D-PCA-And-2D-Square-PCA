@@ -80,7 +80,7 @@ training_time = time.process_time() - training_start_time
 
 
 #Reco
-if reco_type is 0:
+if reco_type == 0:
     time_start = time.process_time()
 
     correct = 0
@@ -118,7 +118,7 @@ if reco_type is 0:
 
 #For Video
 
-if reco_type is 1:
+if reco_type == 1:
     face_cascade = cv2.CascadeClassifier('cascades/data/haarcascade_frontalface_alt2.xml')
 
     cap = cv2.VideoCapture(0)
@@ -160,7 +160,7 @@ if reco_type is 1:
 
 #For Image
 
-if reco_type is 2:
+if reco_type == 2:
     face_cascade = cv2.CascadeClassifier('cascades/data/haarcascade_frontalface_alt2.xml')
     dir = r'images/Group/'
 
