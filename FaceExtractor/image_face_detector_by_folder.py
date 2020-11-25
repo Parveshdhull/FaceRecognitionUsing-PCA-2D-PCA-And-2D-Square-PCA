@@ -15,7 +15,7 @@ class face_extractor:
         self.min_width = 2000
         self.min_height = 2000
 
-        self.dir = d + r'/images/'  # Set Images Folders Location, It will find images in all folders
+        self.dir = d + r'/Persons'  # Set Images Folders Location, It will find images in all folders
         print("Location:", self.dir)
         self.faces = []
         self.names = []
