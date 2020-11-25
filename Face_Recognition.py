@@ -185,7 +185,7 @@ if reco_type is 2:
 
         new_cord = my_algo.new_cord_for_image(scaled)
         print("New Cord PCA"+str(i), new_cord)
-        name, min = my_algo.recognize_face(new_cord)
+        name = my_algo.recognize_face(new_cord)
         font = cv2.FONT_HERSHEY_SIMPLEX
         font_color = (255, 0, 0)
         font_stroke = 5
