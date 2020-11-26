@@ -171,7 +171,7 @@ if reco_type == 2:
     gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
 
 
-    faces = face_cascade.detectMultiScale(gray, scaleFactor=1.5, minNeighbors=5)
+    faces = face_cascade.detectMultiScale(gray, scaleFactor=1.3, minNeighbors=3)
 
 
     i = 0
